@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: LiteratureTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 0.109 s <<< FAILURE! - in LiteratureTest
+orderByAgeRecommendationAndName1(LiteratureTest)  Time elapsed: 0.01 s  <<< FAILURE!
+java.lang.AssertionError: 
+When the program gets 3 books as input, it is expected that the output would contain the String "3 books in total". This didn't happen. The input was:
+[aapinen, 1990, sorsanen, 1991, kukkonen, 1989]
+	at LiteratureTest.orderByAgeRecommendationAndName1(LiteratureTest.java:116)
+
+orderByAgeRecommendationAndName2(LiteratureTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+When the program gets 4 books as input, it is expected that the output would contain the String "4 books in total". This didn't happen. The input was:
+[bbbb, 1, aaaa, 1, cccc, 1, dddd, 0]
+	at LiteratureTest.orderByAgeRecommendationAndName2(LiteratureTest.java:155)
+
+areBooksAndAmountPrinted1(LiteratureTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+When the program gets five books as input, it is expected that the output would contain the String "5 books in total". This didn't happen. The input was:
+[aapinen, 3, kukkonen, 4, paapinen, 5, kiukkunen, 1, ukkonen, 2]
+	at LiteratureTest.areBooksAndAmountPrinted1(LiteratureTest.java:36)
+
+orderByAgeRecommendation(LiteratureTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.AssertionError: 
+When the program gets 6 books as input, it is expected that the output would contain the String "6 books in total". This didn't happen. The input was:
+[aapinen1, 30, kukkonen1, 40, aapinen2, 50, kukkonen2, 10, kukkonen3, 20, aapinen3, 60]
+	at LiteratureTest.orderByAgeRecommendation(LiteratureTest.java:72)
+
